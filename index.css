@@ -1,0 +1,128 @@
+.home{
+	margin: 0 auto;
+	z-index: 6;
+}
+
+.header{
+	margin-left: 500px;
+	position: absolute;
+	font-size: 4em;
+	z-index: 6;
+	color: green;
+}
+
+.click_me{
+	margin-left: 650px;
+	margin-top: 500px;
+	z-index: 6;
+	color: white;
+	position: absolute;
+}
+
+.curtain{
+	background-color: red;
+	z-index: 5;
+}
+
+.left_curtain{
+	width: 750px;
+	height: 800px;
+	margin-left: 0px;
+	position: absolute;
+	animation: none;
+}
+.right_curtain{
+	width: 750px;
+	height: 800px;
+	margin-left: 750px;
+	position: absolute;
+	animation: none
+}
+
+.wheel{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: orange;
+	animation: none;
+	margin-left: 450px;
+	position: absolute;
+	margin-top: -900px;
+	z-index: 3;
+}
+
+#button{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: blue;
+	margin-left: 1100px;
+	font-variant-position:
+}
+
+#butt_title{
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 75px;
+}
+
+@keyframes flyin {
+	0%{
+		transform: translate(0px, -900px);
+	}
+	100%{
+		transform: translate(0px, 0px);
+	}
+}
+
+@keyframes open_l{
+	0%{
+		transform: translate(0px, 0px);
+	}
+
+	100%{
+		transform: translate(-900px, 0px);
+	}
+}
+
+@keyframes open_r{
+	0%{
+		transform: translate(0px, 0px);
+	}
+
+	100%{
+		transform: translate(900px, 0px);
+	}
+}
+
+@keyframes __disp__ {
+	0%{
+		opacity: 1.0;
+	}
+	100%{
+		opacity: 0.0;
+	}
+}
+
+@keyframes __fadeIn__ {
+	0%{
+		opacity: 0.0;
+	}
+	100%{
+		opacity: 1.0;
+	}
+}
+
+@keyframes __rotate__ {
+	0%{
+		transform: rotate(0deg);
+		transform: scale(1.0);
+	}
+	50%{
+		transform: scale(1.3);
+	}
+	100%{
+		transform: rotate(360deg);
+		transform: scale(1.0);
+	}
+}
