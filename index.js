@@ -138,6 +138,8 @@ document.getElementById("button").addEventListener("mousedown", function(){
   isStopped = true;
 }, false);
 
+
+//	Editing this part
 function __game__(value){
 	var easy = ["THINK", "WORD", "HELLO", "PHONE", "CHAIR", "TABLE"];
 	var medium = ["COMPUTER", "REACTION", "TACHYCARDIA", "MITOCHONDRIA", "ACADEMY", "EVERYTHING"];
