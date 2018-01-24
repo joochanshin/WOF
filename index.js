@@ -55,8 +55,8 @@ function getRandomInt(max) {
 // 	setTimeout(__randomSpin__, 1000);
 // }
 
-function randInt(max) {
-  return Math.floor(Math.random() * max);
+function randInt(min, max) {
+  return Math.floor(Math.random() * (max-min) + min;
 }
 
 var color = ['#A53812','#0042FF','#8D15A8','#FFF700','#A81530','#00FF5D', "#1D1C1C", "#f67"];
@@ -139,7 +139,7 @@ document.getElementById("button").addEventListener("mousedown", function(){
 }, false);
 
 
-//	Editing this part
+//	Editing this
 function __game__(value){
 	var easy = ["THINK", "WORD", "HELLO", "PHONE", "CHAIR", "TABLE"];
 	var medium = ["COMPUTER", "REACTION", "TACHYCARDIA", "MITOCHONDRIA", "ACADEMY", "EVERYTHING"];
